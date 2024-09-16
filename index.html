@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link  rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Asma<span class="shadow">Nisar</span></h1>
+        <nav>
+            <ul class="Icons">
+                <li><a href="#Home" class="active">Home</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#My Skills">My Skills</a></li>
+                <li><a href="#Testimonial">Testimonial</a></li>
+                <li><a href="#ContactMe">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home" class="sect1">
+        <div class="Content">
+            <h1 class="heading"> Hi, it's Asma<span class="colored">Nisar</span></h1>
+            <h2 class="heading1">I'm a <span class="color">Frontend Developer</span></h2>
+            <p class="paragraph">
+              Specializing in translating complex design concepts into seamless,
+               responsive websites with a focus on performance,
+                accessibility, and user experience.A creative problem-solver with a keen eye for detail, 
+                adept at leveraging the latest technologies and trends to build intuitive, cutting-edge web solutions.
+            </p>
+
+            <div class="social-icons">
+              <a href="https://www.linkedin.com"><box-icon type="logo" name="linkedin"></box-icon></a>
+              <a href="https://github.com"><box-icon type="logo" name="github"></box-icon></a>
+              <a href="https://www.instagram.com"><box-icon type="logo" name="instagram"></box-icon></a>
+              <a href="https://www.facebook.com"><box-icon type="logo" name="facebook"></box-icon></a>
+            </div>
+    
+        </div>
+      
+        <div class="buttons">
+            <button class="button1">Hire Me</button>
+            <button class="button2" onclick="scrollToSection('ContactMe')">Contact</button>
+        </div>
+        <div class="logopic">
+            <img src="./Images/img1.jpg" alt="Profile Picture"/>
+        </div>
+    </section>
+
+    <section id="Education" class="section2">
+        <h1 class="sect2">Education</h1>
+        <div class="School" data-date="2019"> 
+            <div class="timeline-dot"></div>
+            <h1 class="head1">School</h1>
+            <p>
+              I completed my schooling at Hitec, where I showcased a </br>steadfast commitment to academic excellence. 
+              My time  </br> at Hitec was marked by rigorous coursework and an  </br> unwavering dedication to my studies. 
+              
+            </p>
+        </div>
+
+        <div class="College" data-date="2021"> 
+            <div class="timeline-dot"></div>
+            <h1 class="head2">College</h1>
+            <p> 
+              I completed my college education at Hitec, achieving commendable results in my FSC examinations. 
+              While my formal studies did not include computer science subjects, my keen interest in the field 
+              has driven me to pursue knowledge and skills in this area independently.
+            </p>
+        </div>
+
+        <div class="University" data-date="2024"> 
+            <div class="timeline-dot"></div>
+            <h1 class="head3">University</h1>
+            <p> 
+                I am currently in the 6th semester of my Computer Engineering program at Sir Syed CASE Institute
+                of Technology.My academic journey is focused on gaining a solid foundation in engineering principles.
+                I am dedicated to advancing my knowledge in this dynamic field.
+             
+            </p>
+        </div>
+
+        <div class="Experience" data-date="2024">
+            <div class="timeline-dot"></div>
+            <h1 class="head4">Experience</h1>
+            <p> 
+              I have built a strong foundation in web development with CSS and HTML, complemented by an online 
+              internship at Codealpha. My experience also includes successful projects involving Python and SQL,
+               demonstrating my versatility and problem-solving skills.
+            </p> 
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <h3 class="services-h3">Services</h3>
+        <div class="services-container">
+            <div class="service">
+                <h4>UI Design</h4>
+                <p>
+                    Crafting intuitive and visually appealing user interfaces with a focus on user experience.
+                </p>
+            </div>
+            <div class="service">
+                <h4>Frontend Development</h4>
+                <p>
+                    Bringing designs to life with clean, responsive, and interactive front-end code.
+                </p>
+            </div>
+            <div class="service">
+                <h4>Backend Development</h4>
+                <p>
+                    Developing robust and scalable server-side solutions to power dynamic applications.
+                </p>
+            </div>
+            <div class="service">
+                <h4>Testing</h4>
+                <p>
+                    Ensuring quality and reliability through rigorous testing and debugging processes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-skills" id="My Skills">
+        <h2 class="about-me-h2">My <span>Skills</span></h2>
+  
+        <div class="skills-row">
+          <div class="skills-column">
+            <h3 class="title">Coding Skills</h3>
+            <div class="skills-content">
+              <div class="progress">
+                <h3 class="title">HTML <span>90%</span></h3>
+                <div class="bar"><span class="HTML"></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3 class="title">CSS <span>85%</span></h3>
+                <div class="bar"><span class="CSS"></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3 class="title">JavaScript <span>72%</span></h3>
+                <div class="bar"><span class="JS"></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3 class="title">Python <span>65%</span></h3>
+                <div class="bar"><span class="Python"></span></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="skills-column">
+            <h3 class="title">Proffesional Skills</h3>
+            <div class="skills-content">
+              <div class="progress">
+                <h3 class="title">Web Design <span>90%</span></h3>
+                <div class="bar"><span class="web-design"></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3 class="title">Web Developement <span>87%</span></h3>
+                <div class="bar"><span class="web-developement"></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3 class="title">Graphic Design<span>72%</span></h3>
+                <div class="bar"><span class="graphic-design"></span></div>
+              </div>
+  
+              <div class="progress">
+                <h3 class="title">SEO Marketing<span>56%</span></h3>
+                <div class="bar"><span class="SEO"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="testimonials" id="Testimonial">
+        <h3 class="testimonials-h3">Testimonials</h3>
+        <div class="container">
+          <div class="testimonials-container">
+            <div class="testimonial">
+              <img src="./Images/img5.jpeg" />
+              <h4 class="testimonial-h4">Thomas</h4>
+              <div class="testimonial-icons">
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+              </div>
+              <p class="testimonial-para">
+                AsmaNisar delivered an outstanding website with impressive design and attention to detail.
+                Their commitment to meeting deadlines and exceeding expectations was remarkable. Highly 
+                recommend their top-notch web development skills.
+              </p>
+            </div>
+  
+            <div class="testimonial">
+              <img
+                src="./Images/img3.jpeg"
+              />
+              <h4 class="testimonial-h4">Julia</h4>
+              <div class="testimonial-icons">
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+              </div>
+              <p class="testimonial-para">
+                AsmaNisar transformed our vision into a stunning, user-friendly website with exceptional creativity 
+                and technical expertise. Their dedication and high-quality work ensured the project's success.
+                A pleasure to work with!
+              </p>
+            </div>
+  
+            <div class="testimonial">
+              <img src="./Images/img4.jpeg" />
+              <h4 class="testimonial-h4">Jane</h4>
+              <div class="testimonial-icons">
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+                <i class="fas fa-star star-icon"></i>
+              </div>
+              <p class="testimonial-para">
+                 AsmaNisar  provided excellent frontend development, delivering a polished final product that exceeded
+                 our expectations. Their problem-solving skills and communication were superb. I highly recommend 
+                 their services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+
+      <section class="contact" id="ContactMe">
+        <h2 class="about-me-h2">Contact <span>Me!</span></h2>
+  
+        <form action="#">
+          <div class="input-box">
+            <div class="input-feild">
+              <input
+                class="input-name"
+                type="text"
+                placeholder="Full Name"
+                required
+              />
+              <span class="focus"></span>
+            </div>
+  
+            <div class="input-feild">
+              <input
+                class="input-name"
+                type="email"
+                placeholder="Email Adress"
+                required
+              />
+              <span class="focus"></span>
+            </div>
+          </div>
+  
+          <div class="input-box">
+            <div class="input-feild">
+              <input
+                class="input-name"
+                type="number"
+                placeholder="Mobile Number"
+                required
+              />
+              <span class="focus"></span>
+            </div>
+  
+            <div class="input-feild">
+              <input
+                class="input-name"
+                type="text"
+                placeholder="Email Subject"
+                required
+              />
+              <span class="focus"></span>
+            </div>
+          </div>
+  
+          <div class="textarea-feild">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+            <span class="focus"></span>
+          </div>
+  
+          <div class="contact-buttons">
+            <button class="buttons">Submit</button>
+          </div>
+        </form>
+      </section>
+
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="logos">
+            <a href="https://www.linkedin.com" class="logo-footer"><box-icon type="logo" name="linkedin"></box-icon></a>
+            <a href="https://github.com" class="logo-footer"><box-icon type="logo" name="github"></box-icon></a>
+            <a href="https://www.instagram.com" class="logo-footer"><box-icon type="logo" name="instagram"></box-icon></a>
+            <a href="https://www.facebook.com" class="logo-footer"><box-icon type="logo" name="facebook"></box-icon></a>
+          </div>
+  
+          <div class="nav-footer">
+            <a>FAQ</a>
+            <a href="#Home">Home</a>
+            <a href="#Education">Education</a>
+            <a href="#Services">Services</a>
+            <a href="#My Skills">My Skills</a>
+            <a href="#Testimonial">Testimonials</a>
+            <a href="#ContactMe">Contact Me</a>
+          </div>
+  
+          <div class="copyright">
+            <p class="copyright-content">&#169 Enigjes | All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+  
+</body>
+</html>
